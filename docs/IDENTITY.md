@@ -1,28 +1,40 @@
-# Maintainer Identity
+# Identity Profile: Wasin Garnsomdee (Jeans)
 
-## Profile
-**Project Manager** at **Lucas Strategy**
+## 👤 Executive Summary
 
-## Focus Areas
-Specializing in **Digital Transformation** for state enterprises, with a strong focus on the **Chiang Mai** area.
+* **Current Role:** Project Manager ที่ Lucas Strategy ในจังหวัดเชียงใหม่
+* **Specialization:** เชี่ยวชาญด้านการจัดการซอฟต์แวร์ระดับองค์กร (Enterprise-level software) และแพลตฟอร์มดิจิทัลที่มีผู้ใช้งานจำนวนมาก (High-traffic digital platforms)
+* **Focus:** มุ่งเน้นการขับเคลื่อนการเปลี่ยนแปลงทางดิจิทัล (Digital Transformation) สำหรับรัฐวิสาหกิจและองค์กรสาธารณะในพื้นที่จังหวัดเชียงใหม่
 
-## Key Qualifications & Projects
+## 🚀 Key Professional Projects
 
-### [State Railway of Thailand (SRTA)](https://www.railway.co.th)
-**Digital Asset Management**
-Led digital transformation initiatives to optimize asset management and operational efficiency.
+* **SRTA Digital Asset Management:** ผู้นำการพัฒนาระบบจัดการสินทรัพย์ดิจิทัลให้กับการรถไฟแห่งประเทศไทย (State Railway of Thailand)
+* **Miss Grand Application:** พัฒนาแอปพลิเคชันแบบครบวงจรที่รวมระบบ Livestreaming และ E-commerce เข้าด้วยกัน
+* **ZWAPMONEY (Co-founder):** ร่วมก่อตั้งแพลตฟอร์มซื้อขายรองเท้า Sneaker ในสหรัฐอเมริกา
+* **Fizzy Marketplace:** พัฒนาตลาดออนไลน์เฉพาะทาง (Specialized marketplace)
 
-### Miss Grand App
-**Integrated Livestreaming Application**
-Managed the development and launch of a comprehensive livestreaming platform, enhancing user engagement and content delivery.
+## 🛠 Core Expertise & Skills
 
-### ZWAPMONEY
-**Co-Founder**
-Driving innovation in the fintech sector through ZWAPMONEY.
+* **Project Management:** การบริหารจัดการโครงการซอฟต์แวร์ตั้งแต่เริ่มต้นจนถึงส่งมอบ
+* **UI/UX Design & Architecture:** มีความสนใจและทักษะสูงในการออกแบบหน้าจอผู้ใช้งานและวางโครงสร้างระบบ
+* **Business Analysis:** ประสบการณ์พื้นฐานด้านปฏิบัติการค้าปลีกและการวิเคราะห์ยอดขายจากการทำงานที่ Thaiwatsadu
+* **Business Development:** การวางแผนธุรกิจใหม่ๆ เช่น ระบบขนส่ง (Shipping) และการท่องเที่ยว
 
-### Lucas Strategy
-**Project Manager**
-Orchestrating digital strategy and execution for various high-impact (state enterprise) projects.
+## 🎓 Education & Background
+
+* **Bachelor’s Degree:** บริหารธุรกิจบัณฑิต (การจัดการธุรกิจค้าปลีกสมัยใหม่) จากมหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา (Class of 2023)
+* **Note:** เคยศึกษาปริญญาโทด้านจิตวิทยาองค์กรและทรัพยากรมนุษย์ที่มหาวิทยาลัยเชียงใหม่ (ไม่สำเร็จการศึกษา)
+
+## 🌟 Interests & Personal Projects
+
+* **Trading Card Games (TCG):** สนใจในเกมการ์ด การซื้อขาย และการสร้างชุมชนผู้เล่นในเชียงใหม่
+* **Upcoming Plans:** วางแผนเดินทางไป Shanghai Disneyland ในเดือนพฤศจิกายน 2026
+
+## 📞 Contact Information
+
+* **Full Name:** Wasin Garnsomdee
+* **Email:** wasin.gsd@gmail.com
+* **Phone:** 0940617970
+* **LinkedIn:** Wasin Garnsomdee
 
 ---
-*Created by Antigravity*
