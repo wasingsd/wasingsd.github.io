@@ -145,12 +145,15 @@ const App = () => {
             {/* Profile Image Slot */}
             <div className="hidden lg:block relative group">
               <div className="w-64 h-80 bg-zinc-900 rounded-[2.5rem] overflow-hidden border border-white/10 relative shadow-2xl">
-                <div className="w-full h-full bg-gradient-to-br from-zinc-800 to-black flex items-center justify-center">
-                  <span className="w-full h-full bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("/wasinpf.jpg")' }}></span>
-                </div>
-                {/* Image placeholder removed for privacy unless user adds it back, keeping structure */}
+                <img
+                  src="/wasinpf.jpg"
+                  alt="Wasin Profile"
+                  className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               </div>
+              <div className="absolute -bottom-4 -left-4 w-24 h-24 border-l-2 border-b-2 border-zinc-800 rounded-bl-3xl"></div>
+              <div className="absolute -top-4 -right-4 w-24 h-24 border-r-2 border-t-2 border-zinc-800 rounded-tr-3xl"></div>
             </div>
           </div>
         </section>
