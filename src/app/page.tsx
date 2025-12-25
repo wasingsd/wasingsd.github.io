@@ -102,7 +102,7 @@ const App = () => {
 
 
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-black/60 backdrop-blur-xl">
+      <nav className={`fixed top-0 w-full z-50 border-b border-white/5 backdrop-blur-xl transition-colors ${isMobileMenuOpen ? 'bg-black' : 'bg-black/60'}`}>
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex flex-col leading-none z-50 relative">
             <span className="text-lg font-bold tracking-tighter hover:text-white transition-colors cursor-default text-white">
@@ -132,7 +132,7 @@ const App = () => {
 
           {/* Mobile Menu Overlay */}
           {isMobileMenuOpen && (
-            <div className="fixed inset-0 bg-black/95 backdrop-blur-xl z-40 flex items-center justify-center md:hidden">
+            <div className="fixed top-16 left-0 right-0 z-40 flex flex-col items-center bg-black border-b border-white/10 py-10 md:hidden shadow-2xl">
               <div className="flex flex-col gap-8 text-2xl text-zinc-400 items-center font-bold">
                 <a
                   href="#about"
