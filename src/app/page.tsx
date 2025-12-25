@@ -20,10 +20,14 @@ import {
   Zap,
   Briefcase,
   MapPin,
-  Phone
+  Phone,
+  Menu,
+  X
 } from 'lucide-react';
 
 const App = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+
   const projects = [
     {
       title: "SRTA Digital Asset Management",
@@ -55,11 +59,20 @@ const App = () => {
     {
       title: "Fizzy Marketplace",
       category: "Niche Marketplace",
-      description: "Managing complex functional requirements for a niche marketplace, ensuring alignment between business goals and technical execution.",
+      description: "Managing functional requirements for a niche marketplace, aligning business goals with technical execution.",
       tags: ["Requirements Management", "Functional Design", "Niche Market"],
       size: "medium",
       icon: <TrendingUp className="text-zinc-400" size={20} />,
       image: "/fizzyimage.jpg"
+    },
+    {
+      title: "Moonblues Co., Ltd.",
+      category: "Business Development",
+      description: "Focused on Business Development, quarterly growth planning, and marketing strategy to drive company expansion.",
+      tags: ["Business Strategy", "Growth Planning", "Marketing"],
+      size: "medium",
+      icon: <Briefcase className="text-zinc-400" size={20} />,
+      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2070&auto=format&fit=crop"
     }
   ];
 
@@ -86,33 +99,73 @@ const App = () => {
       {/* Background Layer 2: Radial Spotlight */}
       <div className="fixed inset-0 z-0 pointer-events-none bg-[radial-gradient(circle_at_50%_50%,rgba(24,24,27,0.8),transparent_100%)]"></div>
 
-      {/* Background Layer 3: Bottom Fog Transition */}
-      <div className="absolute bottom-0 left-0 w-full h-[80vh] bg-gradient-to-t from-zinc-100 via-zinc-100/10 to-transparent pointer-events-none"></div>
+
 
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-black/60 backdrop-blur-xl">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex flex-col leading-none">
+          <div className="flex flex-col leading-none z-50 relative">
             <span className="text-lg font-bold tracking-tighter hover:text-white transition-colors cursor-default text-white">
               WASIN.G
             </span>
             <span className="text-[10px] text-zinc-500 tracking-[0.2em] uppercase font-medium">Project Manager</span>
           </div>
-          <div className="flex gap-8 text-sm text-zinc-400 items-center">
-            <a href="#about" className="hover:text-white transition-colors hidden md:block">About</a>
-            <a href="#work" className="hover:text-white transition-colors hidden md:block">Projects</a>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex gap-8 text-sm text-zinc-400 items-center">
+            <a href="#about" className="hover:text-white transition-colors">About</a>
+            <a href="#work" className="hover:text-white transition-colors">Projects</a>
             <a href="#contact" className="hover:text-white transition-colors text-xs uppercase tracking-widest border border-white/20 px-5 py-2 rounded-full hover:bg-white hover:text-black transition-all">
               Connect
             </a>
           </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden z-50 relative">
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="text-white p-2"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+
+          {/* Mobile Menu Overlay */}
+          {isMobileMenuOpen && (
+            <div className="fixed inset-0 bg-black/95 backdrop-blur-xl z-40 flex items-center justify-center md:hidden">
+              <div className="flex flex-col gap-8 text-2xl text-zinc-400 items-center font-bold">
+                <a
+                  href="#about"
+                  className="hover:text-white transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  About
+                </a>
+                <a
+                  href="#work"
+                  className="hover:text-white transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Projects
+                </a>
+                <a
+                  href="#contact"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="hover:text-white transition-colors text-xl uppercase tracking-widest border border-white/20 px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all"
+                >
+                  Connect
+                </a>
+              </div>
+            </div>
+          )}
         </div>
       </nav>
 
       <main className="relative z-10 max-w-6xl mx-auto px-6 pt-32 pb-20">
 
         {/* Hero Section */}
-        <section id="about" className="mb-40">
-          <div className="grid md:grid-cols-[1fr_auto] gap-12 items-start">
+        <section id="about" className="mb-20 md:mb-40">
+          <div className="grid md:grid-cols-[1fr_auto] gap-8 md:gap-12 items-start">
             <div className="max-w-3xl">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-zinc-400 mb-8 backdrop-blur-sm">
                 <span className="relative flex h-2 w-2">
@@ -121,34 +174,33 @@ const App = () => {
                 </span>
                 Based in Chiang Mai, Thailand
               </div>
-              <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 leading-[1.1] text-white">
-                Wasin Garnsomdee
-                <span className="text-zinc-500 italic text-4xl md:text-6xl ml-3">(Sua)</span>
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-[1.1] text-white whitespace-nowrap">
+                Wasin Garnsomdee <span className="text-zinc-500 italic text-2xl sm:text-3xl md:text-5xl">(Sua)</span>
               </h1>
               <h2 className="text-2xl md:text-1xl text-zinc-300 mb-8 font-medium">
                 <span className="text-white opacity-70"> "Connecting</span>
                 <span className="text-white"> Business Strategy</span> <span className="text-white opacity-70">and</span> <span className="text-white">Technical Implementation"</span>.
               </h2>
               <p className="text-lg md:text-xl text-zinc-400 leading-relaxed mb-12 max-w-2xl font-medium">
-                With over 5 years of experience in the tech industry, I aim to simplify complex business requirements into seamless system flows and user-friendly designs. I have had the opportunity to contribute to high-traffic platforms and state enterprise projects, assisting them in their digital transformation journey. I believe in using data-driven strategies to help businesses scale sustainably.
+                With over 3 years of experience in the tech industry, I aim to simplify complex business requirements into seamless system flows and user-friendly designs. I have had the opportunity to contribute to high-traffic platforms and state enterprise projects, assisting them in their digital transformation journey. I believe in using data-driven strategies to help businesses scale sustainably.
               </p>
 
               <div className="flex flex-wrap gap-4">
                 {expertise.map((skill, i) => (
-                  <div key={i} className="flex items-center gap-2 text-[10px] uppercase tracking-widest px-4 py-2 bg-white/5 border border-white/10 rounded-full text-zinc-300 hover:border-white/40 transition-colors backdrop-blur-sm font-semibold">
-                    {skill.icon} {skill.name}
+                  <div key={i} className="flex items-center gap-2 text-[10px] uppercase tracking-wide md:tracking-widest px-3 md:px-4 py-2 bg-white/5 border border-white/10 rounded-full text-zinc-300 hover:border-white/40 transition-colors backdrop-blur-sm font-semibold whitespace-normal text-center">
+                    {skill.icon} <span className="text-left">{skill.name}</span>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* Profile Image Slot */}
-            <div className="hidden lg:block relative group">
+            <div className="flex justify-center lg:block relative group mt-8 lg:mt-0">
               <div className="w-64 h-80 bg-zinc-900 rounded-[2.5rem] overflow-hidden border border-white/10 relative shadow-2xl">
                 <img
                   src="/wasinpf.jpg"
                   alt="Wasin Profile"
-                  className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
+                  className="w-full h-full object-cover grayscale-0 opacity-100 lg:grayscale lg:opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
               </div>
@@ -159,7 +211,7 @@ const App = () => {
         </section>
 
         {/* Work Section (Bento Grid) */}
-        <section id="work" className="mb-40">
+        <section id="work" className="mb-20 md:mb-40">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
             <div>
               <div className="flex items-center gap-3 mb-2">
@@ -202,7 +254,7 @@ const App = () => {
 
                     <div className="mt-auto">
                       <h3 className={`font-bold mb-4 tracking-tight leading-none text-white transition-colors 
-                        ${project.size === 'large' ? 'text-4xl md:text-5xl' : 'text-2xl'}`}>
+                        ${project.size === 'large' ? 'text-2xl md:text-5xl' : 'text-2xl'}`}>
                         {project.title}
                       </h3>
                       <p className="text-zinc-300 text-sm leading-relaxed mb-8 max-w-sm group-hover:text-white transition-colors font-medium">
@@ -225,7 +277,7 @@ const App = () => {
         </section>
 
         {/* Experience Section */}
-        <section className="mb-40 grid md:grid-cols-[1.2fr_1fr] gap-20 items-center text-zinc-900">
+        <section className="mb-20 md:mb-40 grid md:grid-cols-[1.2fr_1fr] gap-10 md:gap-20 items-center text-zinc-900">
           <div className="relative">
             <div className="flex items-center gap-3 mb-10 text-zinc-950">
               <Briefcase size={24} className="text-zinc-800 dark:text-zinc-200" />
@@ -329,42 +381,42 @@ const App = () => {
         </section>
 
         {/* Footer */}
-        <footer id="contact" className="pt-24 pb-12 text-zinc-950">
-          <div className="flex flex-col md:flex-row justify-between items-start gap-16">
-            <div className="max-w-xl">
+        <footer id="contact" className="pt-24 pb-12 text-zinc-200">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-16">
+            <div className="max-w-xl flex flex-col items-center md:items-start text-center md:text-left">
               <p className="text-zinc-500 text-[10px] mb-8 uppercase tracking-[0.6em] font-bold">Get in touch</p>
-              <h2 className="text-5xl md:text-8xl font-bold mb-10 tracking-tighter text-zinc-900">
-                Let's <span className="text-zinc-400">talk.</span>
+              <h2 className="text-5xl md:text-8xl font-bold mb-10 tracking-tighter text-white">
+                Let's <span className="text-zinc-500">talk.</span>
               </h2>
-              <div className="flex flex-col gap-4">
-                <div className="flex items-center gap-3 text-zinc-800 font-medium">
+              <div className="flex flex-col gap-4 items-center md:items-start">
+                <div className="flex items-center gap-3 text-zinc-400 font-medium">
                   <Mail size={18} /> wasin.gsd@gmail.com
                 </div>
-                <div className="flex items-center gap-3 text-zinc-800 font-medium">
+                <div className="flex items-center gap-3 text-zinc-400 font-medium">
                   <Phone size={18} /> 094-061-7970
                 </div>
-                <div className="flex items-center gap-3 text-zinc-800 font-medium">
-                  <span className="font-bold">LINE</span> divineheart
+                <div className="flex items-center gap-3 text-zinc-400 font-medium">
+                  <span className="font-bold text-zinc-200">LINE</span> divineheart
                 </div>
               </div>
-              <div className="flex flex-wrap gap-4 mt-8">
-                <a href="mailto:wasin.gsd@gmail.com" className="flex items-center gap-3 bg-zinc-950 text-white px-8 py-4 rounded-full font-bold hover:scale-105 transition-all active:scale-95 shadow-xl">
+              <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
+                <a href="mailto:wasin.gsd@gmail.com" className="flex items-center gap-3 bg-white text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-all active:scale-95 shadow-xl hover:bg-zinc-200">
                   <Mail size={18} /> Email Me
                 </a>
               </div>
             </div>
 
-            <div className="flex flex-col items-end gap-10 md:text-right">
-              <div className="bg-zinc-200/50 backdrop-blur-sm p-6 rounded-3xl border border-zinc-300 max-w-[240px]">
+            <div className="flex flex-col items-center md:items-end gap-10 text-center md:text-right">
+              <div className="bg-zinc-900/50 backdrop-blur-sm p-6 rounded-3xl border border-white/10 max-w-[240px]">
                 <p className="text-[9px] text-zinc-500 uppercase tracking-widest mb-3 font-bold">Status</p>
-                <p className="text-xs text-zinc-800 leading-relaxed font-bold">
+                <p className="text-xs text-zinc-300 leading-relaxed font-bold">
                   Open for opportunities in Enterprise Software & Digital Transformation.
                 </p>
               </div>
               <div className="flex flex-col items-end">
                 <span className="text-[10px] text-zinc-500 tracking-[0.2em] uppercase font-bold mb-2">Developed by</span>
-                <span className="text-xl font-bold tracking-tighter text-zinc-950">ANTIGRAVITY</span>
-                <span className="text-[10px] text-zinc-400 tracking-[0.4em] uppercase font-bold mt-4 italic">© 2025 ALL RIGHTS RESERVED.</span>
+                <span className="text-xl font-bold tracking-tighter text-white">ANTIGRAVITY</span>
+                <span className="text-[10px] text-zinc-600 tracking-[0.4em] uppercase font-bold mt-4 italic">© 2025 ALL RIGHTS RESERVED.</span>
               </div>
             </div>
           </div>
