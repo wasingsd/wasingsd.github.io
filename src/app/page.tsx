@@ -122,12 +122,12 @@ const App = () => {
                 Based in Chiang Mai, Thailand
               </div>
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 leading-[1.1] text-white">
-                Wasin Garnsomdee <br />
-                <span className="text-zinc-500 italic text-4xl md:text-6xl">(Sua)</span>
+                Wasin Garnsomdee
+                <span className="text-zinc-500 italic text-4xl md:text-6xl ml-3">(Sua)</span>
               </h1>
-              <h2 className="text-2xl md:text-3xl text-zinc-300 mb-8 font-medium">
-                Bridging the gap between <br className="hidden md:block" />
-                <span className="text-white">Business Strategy</span> and <span className="text-white">Technical Implementation</span>.
+              <h2 className="text-2xl md:text-1xl text-zinc-300 mb-8 font-medium">
+                <span className="text-white opacity-70"> "Connecting</span>
+                <span className="text-white"> Business Strategy</span> <span className="text-white opacity-70">and</span> <span className="text-white">Technical Implementation"</span>.
               </h2>
               <p className="text-lg md:text-xl text-zinc-400 leading-relaxed mb-12 max-w-2xl font-medium">
                 With over 5 years of experience in the tech industry, I aim to simplify complex business requirements into seamless system flows and user-friendly designs. I have had the opportunity to contribute to high-traffic platforms and state enterprise projects, assisting them in their digital transformation journey. I believe in using data-driven strategies to help businesses scale sustainably.
