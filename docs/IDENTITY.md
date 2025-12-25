@@ -1,40 +1,70 @@
-# Identity Profile: Wasin Garnsomdee (Jeans)
+# PROJECT CONTEXT: Personal Portfolio Website
+# TARGET USER: Wasin Garnsomdee (Sua)
 
-## 👤 Executive Summary
-
-* **Current Role:** Project Manager ที่ Lucas Strategy ในจังหวัดเชียงใหม่
-* **Specialization:** เชี่ยวชาญด้านการจัดการซอฟต์แวร์ระดับองค์กร (Enterprise-level software) และแพลตฟอร์มดิจิทัลที่มีผู้ใช้งานจำนวนมาก (High-traffic digital platforms)
-* **Focus:** มุ่งเน้นการขับเคลื่อนการเปลี่ยนแปลงทางดิจิทัล (Digital Transformation) สำหรับรัฐวิสาหกิจและองค์กรสาธารณะในพื้นที่จังหวัดเชียงใหม่
-
-## 🚀 Key Professional Projects
-
-* **SRTA Digital Asset Management:** ผู้นำการพัฒนาระบบจัดการสินทรัพย์ดิจิทัลให้กับการรถไฟแห่งประเทศไทย (State Railway of Thailand)
-* **Miss Grand Application:** พัฒนาแอปพลิเคชันแบบครบวงจรที่รวมระบบ Livestreaming และ E-commerce เข้าด้วยกัน
-* **ZWAPMONEY (Co-founder):** ร่วมก่อตั้งแพลตฟอร์มซื้อขายรองเท้า Sneaker ในสหรัฐอเมริกา
-* **Fizzy Marketplace:** พัฒนาตลาดออนไลน์เฉพาะทาง (Specialized marketplace)
-
-## 🛠 Core Expertise & Skills
-
-* **Project Management:** การบริหารจัดการโครงการซอฟต์แวร์ตั้งแต่เริ่มต้นจนถึงส่งมอบ
-* **UI/UX Design & Architecture:** มีความสนใจและทักษะสูงในการออกแบบหน้าจอผู้ใช้งานและวางโครงสร้างระบบ
-* **Business Analysis:** ประสบการณ์พื้นฐานด้านปฏิบัติการค้าปลีกและการวิเคราะห์ยอดขายจากการทำงานที่ Thaiwatsadu
-* **Business Development:** การวางแผนธุรกิจใหม่ๆ เช่น ระบบขนส่ง (Shipping) และการท่องเที่ยว
-
-## 🎓 Education & Background
-
-* **Bachelor’s Degree:** บริหารธุรกิจบัณฑิต (การจัดการธุรกิจค้าปลีกสมัยใหม่) จากมหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา (Class of 2023)
-* **Note:** เคยศึกษาปริญญาโทด้านจิตวิทยาองค์กรและทรัพยากรมนุษย์ที่มหาวิทยาลัยเชียงใหม่ (ไม่สำเร็จการศึกษา)
-
-## 🌟 Interests & Personal Projects
-
-* **Trading Card Games (TCG):** สนใจในเกมการ์ด การซื้อขาย และการสร้างชุมชนผู้เล่นในเชียงใหม่
-* **Upcoming Plans:** วางแผนเดินทางไป Shanghai Disneyland ในเดือนพฤศจิกายน 2026
-
-## 📞 Contact Information
-
-* **Full Name:** Wasin Garnsomdee
-* **Email:** wasin.gsd@gmail.com
-* **Phone:** 0940617970
-* **LinkedIn:** Wasin Garnsomdee
+## 1. PROJECT OBJECTIVE
+Build a professional personal website to showcase Wasin Garnsomdee's portfolio as a **Project Manager** specializing in **Enterprise Software, System Design, and Digital Transformation**. The site should be modern, clean, and responsive.
 
 ---
+
+## 2. USER PROFILE (DATA FOR WEBSITE CONTENT)
+
+### **Hero Section Info**
+* **Name:** Wasin Garnsomdee (Sua)
+* **Role:** Project Manager | Enterprise Software & System Design Specialist
+* **Tagline:** "Bridging the gap between Business Strategy and Technical Implementation."
+* **Location:** Chiang Mai, Thailand
+* **Contact:**
+    * Email: wasin.gsd@gmail.com
+    * Phone: 094-061-7970
+    * Line ID: divineheart
+
+### **About Me (Summary)**
+"I am a Project Manager with over 5 years of experience in managing high-traffic digital platforms and enterprise-level software. My expertise lies in translating complex business requirements into clear System Flows and UX/UI Architectures. I specialize in Digital Transformation for state enterprises and scaling business growth through data-driven strategies."
+
+---
+
+## 3. WORK EXPERIENCE (TIMELINE)
+
+**1. Project Manager @ Lucas Strategy (Chiang Mai)**
+* *Date:* June 5, 2025 – Present
+* *Highlights:*
+    * **SRTA Digital Asset Management:** Leading the development of a digital asset system for SRT Asset (State Railway of Thailand).
+    * **Fizzy Marketplace:** Managing complex functional requirements for a niche marketplace.
+    * **Digital Transformation:** Consulting for public sectors in Northern Thailand.
+
+**2. Business Project Manager @ Moonblues Co., Ltd.**
+* *Date:* Aug 2027 – Nov 2027 (Previous)
+* *Highlights:* Focused on Business Development, quarterly growth planning, and marketing strategy.
+
+**3. Product Manager (Co-founder) @ Soleout Co., Ltd.**
+* *Date:* Jun 2027 – Nov 2027 (Previous)
+* *Highlights:* Co-founded **ZWAPMONEY US** (Sneaker Marketplace). Designed the entire Business Plan and Product Prototype.
+
+**4. Project Manager & Team Leader @ Greyscale Digital**
+* *Date:* Jul 2026 – Aug 2027 (Previous)
+* *Highlights:*
+    * **MGI (Miss Grand International) Project:** Responsible for **System UX/UI Design** and **System Flow Architecture** (Pre-development phase).
+    * Managed web development teams and strategic growth.
+
+**5. Sales Executive (Acting DM) @ CRC Thaiwatsadu**
+* *Date:* Oct 2023 – Feb 2026 (Previous)
+* *Highlights:* Managed inventory and sales analytics. Achieved sales targets as Acting Department Manager.
+
+---
+
+## 4. SKILLS & EXPERTISE (FOR SKILLS SECTION)
+* **Core:** Project Management (Agile), System Flow Design, UX/UI Prototyping, Business Intelligence.
+* **Domain:** Enterprise Software, E-commerce, Digital Asset Management (DAM).
+* **Soft Skills:** Stakeholder Management, Team Leadership, English Communication (Professional).
+
+## 5. EDUCATION
+* **Bachelor of Business Administration (Modern Retail Management)**
+    * Rajamangala University of Technology Lanna (Class of 2023)
+    * GPA: 3.28
+
+---
+
+## 6. DESIGN PREFERENCES
+* **Style:** Professional, Minimalist, Trustworthy.
+* **Color Palette:** Clean white/gray background with a professional accent color (e.g., Deep Blue or Navy).
+* **Key Sections needed:** Hero, About, Experience Timeline, Selected Projects, Contact Form.
