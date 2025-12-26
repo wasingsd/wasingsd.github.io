@@ -106,7 +106,7 @@ const App = () => {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex flex-col leading-none z-50 relative">
             <span className="text-lg font-bold tracking-tighter hover:text-white transition-colors cursor-default text-white">
-              WASIN.GARNSOMDEE
+              WASIN.G
             </span>
             <span className="text-[10px] text-zinc-500 tracking-[0.2em] uppercase font-medium">Project Manager</span>
           </div>
