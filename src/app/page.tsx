@@ -63,7 +63,7 @@ const App = () => {
       tags: ["Requirements Management", "Functional Design", "Niche Market"],
       size: "medium",
       icon: <TrendingUp className="text-zinc-400" size={20} />,
-      image: "/fizzyimage.jpg"
+      image: "/wasin.profile/fizzyimage.jpg"
     },
     {
       title: "Moonblues Co., Ltd.",
@@ -198,7 +198,7 @@ const App = () => {
             <div className="flex justify-center lg:block relative group mt-8 lg:mt-0">
               <div className="w-64 h-80 bg-zinc-900 rounded-[2.5rem] overflow-hidden border border-white/10 relative shadow-2xl">
                 <img
-                  src="/wasinpf.jpg"
+                  src="/wasin.profile/wasinpf.jpg"
                   alt="Wasin Profile"
                   className="w-full h-full object-cover grayscale-0 opacity-100 lg:grayscale lg:opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                 />
