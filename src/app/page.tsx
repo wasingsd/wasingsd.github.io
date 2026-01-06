@@ -305,7 +305,7 @@ const App = () => {
                 <div className="absolute left-0 top-1.5 h-4 w-4 rounded-full bg-zinc-700 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></div>
                 <div className="mb-1 flex justify-between items-baseline">
                   <p className="text-zinc-800 font-bold text-xl tracking-tight !text-white">Business Project Manager</p>
-                  <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Aug 2027 – Nov 2027</span>
+                  <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Aug 2024 – Nov 2024</span>
                 </div>
                 <p className="text-sm text-zinc-600 mb-2 font-bold uppercase tracking-tighter !text-white !opacity-75">Moonblues Co., Ltd.</p>
                 <p className="text-sm text-zinc-700 leading-relaxed font-medium !text-white opacity-50">Focused on Business Development, quarterly growth planning, and marketing strategy.</p>
@@ -315,7 +315,7 @@ const App = () => {
                 <div className="absolute left-0 top-1.5 h-4 w-4 rounded-full bg-zinc-600 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></div>
                 <div className="mb-1 flex justify-between items-baseline">
                   <p className="text-zinc-800 font-bold text-xl tracking-tight !text-white">Product Manager (Co-founder)</p>
-                  <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Jun 2027 – Nov 2027</span>
+                  <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Aug 2024 – Nov 2024</span>
                 </div>
                 <p className="text-sm text-zinc-600 mb-2 font-bold uppercase tracking-tighter !text-white opacity-75">Soleout Co., Ltd.</p>
                 <p className="text-sm text-zinc-700 leading-relaxed font-medium !text-white opacity-50">Co-founded ZWAPMONEY US (Sneaker Marketplace). Designed the entire Business Plan and Product Prototype.</p>
@@ -325,7 +325,7 @@ const App = () => {
                 <div className="absolute left-0 top-1.5 h-4 w-4 rounded-full bg-zinc-500 border-4 border-white shadow-md group-hover:scale-125 transition-transform"></div>
                 <div className="mb-1 flex justify-between items-baseline">
                   <p className="text-zinc-700 font-bold text-xl tracking-tight !text-white">Project Manager & Team Leader</p>
-                  <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Jul 2026 – Aug 2027</span>
+                  <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Jul 2023 – Aug 2024</span>
                 </div>
                 <p className="text-sm text-zinc-600 mb-2 font-bold uppercase tracking-tighter !text-white opacity-75">Greyscale Digital</p>
                 <ul className="text-sm text-zinc-700 leading-relaxed list-disc pl-4 space-y-1 font-medium !text-white opacity-50">
@@ -338,7 +338,7 @@ const App = () => {
                 <div className="absolute left-0 top-1.5 h-4 w-4 rounded-full bg-zinc-400 border-4 border-white group-hover:scale-125 transition-transform"></div>
                 <div className="mb-1 flex justify-between items-baseline">
                   <p className="text-zinc-500 font-bold text-xl tracking-tight !text-white">Sales Executive (Acting DM)</p>
-                  <span className="text-[10px] text-zinc-400 font-bold uppercase tracking-widest">Oct 2023 – Feb 2026</span>
+                  <span className="text-[10px] text-zinc-400 font-bold uppercase tracking-widest">Oct 2021 – Feb 2023</span>
                 </div>
                 <p className="text-sm text-zinc-500 mb-2 font-bold uppercase tracking-tighter !text-white opacity-75">CRC Thaiwatsadu</p>
                 <p className="text-sm text-zinc-600 leading-relaxed font-medium !text-white opacity-50">Managed inventory and sales analytics. Achieved sales targets as Acting Department Manager.</p>
